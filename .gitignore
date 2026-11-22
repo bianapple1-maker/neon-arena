@@ -1,0 +1,18 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Compiled objects / binaries
+*.o
+*.a
+*.so
+*.exe
+neon_arena
+
+# IDE / editor cruft
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
