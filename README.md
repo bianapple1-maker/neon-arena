@@ -1,10 +1,6 @@
 # NEON ARENA — a bodycam-style wave-survival FPS in C++
 
-Pure C++20 + OpenGL 3.3 core + GLFW. No assets, no engine: every mesh, texture,
-font and sound is generated procedurally at startup. The footage is rendered
-through a bodycam post-process (fisheye lens, film grain, chromatic aberration,
-vignette, scanlines) with chest-cam sway, strafe roll and breathing. Audio uses
-OpenAL when available (builds and runs silently otherwise).
+jadi ie game pertama kali NU aing,aing nyien na low budget da soalna laptop aing panas pas compile ulang kali c++ na,tapi game na simple sih tempat temabakan
 
 ## Build
 
@@ -36,22 +32,7 @@ cmake --build build -j
 
 ## The game
 
-- Endless waves in a gritty overcast depot: floodlight poles, dumpsters, pallet
-  stacks, sandbag nests, generators, wall pipes, painted floor markings, oil
-  stains and scattered debris.
-- Enemies are armed operators with visible rifles: **Grunts** advance firing
-  pot-shots, **Shooters** strafe and fire telegraphed bursts, **Heavies** (every
-  4th wave) ground-slam. All of them have **limited magazines and perform
-  tactical reloads** (a free window to push them), flinch when hit, and aim
-  their rifle pitch at your eye.
-- Headshots deal double damage (aim for the visor).
-- **Animated reload**: mag drops out with your support hand, a fresh one slaps
-  in, bolt releases - two-stage sounds included. Hold **RMB** for bodycam-style
-  aim: camera zooms, sights align, sway tightens.
-- Combo multiplier grows with fast consecutive kills; wave-clear and
-  headshot bonuses; floating score popups, kill feed, radar, hit markers.
-- Health & ammo pickups respawn at fixed pads; health slowly regenerates after
-  4 seconds without damage.
+game na mah wave na moal Eren Eren,ciga game zombie jeng loba retro spice na meh low poly katingali na😅
 
 ## Code map
 
